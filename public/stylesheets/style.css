@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+div.jumbotron{
+padding-top: 10px;
+padding-bottom: 30px;
+}
+
+h1
+{
+    font: 38.5px museo-slab,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
