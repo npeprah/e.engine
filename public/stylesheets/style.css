@@ -1,16 +1,23 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-a {
-  color: #00b7ff;
-}
-div.jumbotron{
-padding-top: 10px;
-padding-bottom: 30px;
+    font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    padding: 30px;
+    background-color: #ffffff;
 }
 
-h1
+.no-space [class*="span"] {
+    margin-left: 0;
+}
+
+.span6.blue
 {
-    font: 38.5px museo-slab,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000335;
+    color: #dfdbdf;
+}
+
+.row.second
+{
+
 }

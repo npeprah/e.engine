@@ -1,101 +1,54 @@
 extends layout
 block content
-    nav.navbar.navbar-fixed-top
-            .navbar-inner
-                a.brand(href='#') E.Engine
+    .page.landing
+        .navbar
+            .container
                 a.btn.btn-navbar(data-toggle='collapse', data-target='.nav-collapse')
                     span.icon-bar
                     span.icon-bar
                     span.icon-bar
                 .nav-collapse.collapse
-                    ul.nav
-                        li
-                            a(href='#') home
-                        li.divider-vertical
-                        li
-                            a(href='#') investors
-                        li.divider-vertical
-                        li
-                            a(href='#') about
-                        li.divider-vertical
-                        li.dropdown
-                            a.dropdown-toggle(href='#', data-toggle='dropdown')
-                                | connect
-                                b.caret
-                            ul.dropdown-menu
-                                li
-                                    a(href='#') facebook
-                                li
-                                    a(href='#') twitter
-                                li
-                                    a(href='#') google+
-                        li.divider-vertical
-                    ul.nav.pull-right
-                        li
-                            a(href='#register', data-toggle='modal') Sign Up
-                        li.divider-vertical
-                        li
-                            a(href='#login', data-toggle='modal') Login
-        #main-content.hero-unit
-            h1 E.Engine
-            p Disrupting how we crowdfund
-            p
-                a(href='#register', data-toggle='modal') Get Started!
-        .container-fluid
-            div(header='row-fluid')
-                .span8.offset4
-                    #slider.carousel.slide
-                        .carousel-inner
-                            .item.active
-                                img(src='http://placehold.it/900x500')
-                                .carousel-caption
-                                    h4 Headline for Image 1
-                                    p Description for Image 1
-                            .item
-                                img(src='http://placehold.it/900x500')
-                                .carousel-caption
-                                    h4 Headline for Image 2
-                                    p Description for Image 2
-                            .item
-                                img(src='http://placehold.it/900x500')
-                                .carousel-caption
-                                    h4 Headline for Image 3
-                                    p Description for Image 3
-                        a.left.carousel-control(href='#slider', data-slide='prev') ‹
-                        a.right.carousel-control(href='#slider', data-slide='next') ›
-        footer.row
-        #register.modal.hide.fade(aria-labledlledby='modalLabel', aria-hidden='true')
-            .modal-header
-                button.close(type='button', data-dismiss='modal', aria-hidden='true')
-                    i.icon-remove
-                h3#modalLabel Register
-            .modal-body
-                form
-                    .controls.control-group.info
-                        select.span5
-                            option
-                            option Investor
-                            option Entrepreneur
-                        input.span5(type='text', placeholder='First Name')
-                        input.span5(type='text', placeholder='Last Name')
-                        input.span5(type='text', placeholder='email')
-                        input.span5(type='text', placeholder='password')
-                        input.span5(type='text', placeholder='confirm password')
-            .modal-footer
-                button.btn.btn-success register
-                button.btn.btn-danger(data-dismiss='modal', aria-hidden='true') cancel
-        #login.modal.hide.fade(aria-labledlledby='modalLogin', aria-hidden='true')
-            .modal-header
-                button.close(type='button', data-dismiss='modal', aria-hidden='true')
-                    i.icon-remove
-                h3#modalLogin Login
-            .modal-body
-                form
-                    .controls.control-group.info
-                        input.span5(type='text', placeholder='email')
-                        input.span5(type='text', placeholder='password')
-            .modal-footer
-                button.btn.btn-success login
-                button.btn.btn-danger(data-dismiss='modal', aria-hidden='true') cancel
-        script(src='bootstrap/js/jquery.min.js')
-        script(src='bootstrap/js/bootstrap.js')
+                    .nav
+                        ul.nav
+                            li
+                                a(href='#') Who we are
+                            li.divider-vertical
+                            li
+                                a(href='#') What we do
+                            li.divider-vertical
+                            li
+                                a(href='#') Our Thinking
+
+        .main
+            .picture.body.no-space
+                .container
+                    .row
+                        .span8
+                            img(src='/images/main_picture.jpg')
+                        .span4
+                            img(src='/images/fishing.jpg')
+                            img(src='/images/grey.png')
+                    .row.second
+                        .span6.blue
+                            h1 This is the test
+                        .span6
+                            h1 Hello Motherfucker !
+                            p I am different
+                    .row
+                        .span4
+                            img(src='/images/greySmall.png')
+                            img(src='/images/blueSmall.png')
+                        .span4
+                            h1 Hello Mother.
+                        .span4.offset4
+                            img(src='/images/blueSmall.png')
+                            img(src='/images/greySmall.png')
+
+
+
+
+
+
+
+
+
